@@ -46,73 +46,6 @@ main.css: samo za globalni izgled stranica, za personalno prilagodjavanje strani
     height:auto;
 }
 
-
-/* Footer CSS */ 
-.site-info {
-    text-align: center;
-    margin-bottom: 0;
-    font-size: 12px;
-    font-weight: bold;
-}
-
-.twit-picture {
-	height: 20px;
-	width: 20px;
-	background: url("../images/twitter.png");
-	background-repeat: no-repeat;
-	background-size: 20px 20px;
-}
-.twit-picture:hover {
-	background: url("../images/twitterhover.png");
-	background-repeat: no-repeat;
-	background-size: 20px 20px;
-}
-
-
-.fb-picture {
-	height: 20px;
-	width: 20px;
-	background: url("../images/facebook.png");
-	background-repeat: no-repeat;
-	background-size: 20px 20px;
-}
-.fb-picture:hover {
-	background: url("../images/facehover.png");
-	background-repeat: no-repeat;
-	background-size: 20px 20px;
-}
-
-.inst-picture {
-	height: 20px;
-	width: 20px;
-	background: url("../images/insta.png");
-	background-repeat: no-repeat;
-	background-size: 20px 20px;
-}
-.inst-picture:hover {
-	background: url("../images/instahover.png");
-	background-repeat: no-repeat;
-	background-size: 20px 20px;
-}
-
-.link-picture {
-	height: 20px;
-	width: 20px;
-	background: url("../images/linkedin.png");
-	background-repeat: no-repeat;
-	background-size: 20px 20px;
-}
-
-.link-picture:hover {
-	background: url("../images/linhover.png");
-	background-repeat: no-repeat;
-	background-size: 20px 20px;
-
-
-
-
-/* Prilagodljiv navbar, na skroll, lepi se na vrh strane - CP */
-
 /* Underline From Center */
 .hvr-underline-from-center {
     display: inline-block;
@@ -189,4 +122,65 @@ main.css: samo za globalni izgled stranica, za personalno prilagodjavanje strani
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
 }
+
+
+/* Footer CSS */ 
+.site-info {
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.twit-picture {
+	height: 20px;
+	width: 20px;
+	background: url("../images/twitter.png");
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+}
+.twit-picture:hover {
+	background: url("../images/twitterhover.png");
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+}
+
+
+.fb-picture {
+	height: 20px;
+	width: 20px;
+	background: url("../images/facebook.png");
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+}
+.fb-picture:hover {
+	background: url("../images/facehover.png");
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+}
+
+.inst-picture {
+	height: 20px;
+	width: 20px;
+	background: url("../images/insta.png");
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+}
+.inst-picture:hover {
+	background: url("../images/instahover.png");
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+}
+
+.link-picture {
+	height: 20px;
+	width: 20px;
+	background: url("../images/linkedin.png");
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+}
+
+.link-picture:hover {
+	background: url("../images/linhover.png");
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
 
