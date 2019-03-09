@@ -41,7 +41,7 @@ main.css: samo za globalni izgled stranica, za personalno prilagodjavanje strani
     font-family: 'Srisakdi', cursive;
 }
 
-.temp_pic {
+.logo_pic {
     max-width:15%; 
     height:auto;
 }
@@ -183,4 +183,4 @@ main.css: samo za globalni izgled stranica, za personalno prilagodjavanje strani
 	background: url("../images/linhover.png");
 	background-repeat: no-repeat;
 	background-size: 20px 20px;
-
+}
