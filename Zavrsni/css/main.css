@@ -1,4 +1,11 @@
-.bg {
+/* Istorija:
+CP: Copy-Paste
+main.css: samo za globalni izgled stranica, za personalno prilagodjavanje stranice, koristiti lokalni css
+*/
+
+
+/*header + container */
+.background-image {
     min-height: 70vh;
     background-image: url('https://blogmedia.evbstatic.com/wp-content/uploads/wpmulti/sites/3/2017/03/17121953/iStock-610259354.jpg');
     background-size: cover;
@@ -6,7 +13,7 @@
 }
 
 .navbar-back {
-    background-color: #000 !important;
+    background-color: #27663e !important;
 }
 
 .sticky-top {
@@ -39,14 +46,72 @@
     height:auto;
 }
 
+
+/* Footer CSS */ 
 .site-info {
     text-align: center;
     margin-bottom: 0;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: bold;
 }
 
+.twit-picture {
+	height: 20px;
+	width: 20px;
+	background: url("../images/twitter.png");
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+}
+.twit-picture:hover {
+	background: url("../images/twitterhover.png");
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+}
 
+
+.fb-picture {
+	height: 20px;
+	width: 20px;
+	background: url("../images/facebook.png");
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+}
+.fb-picture:hover {
+	background: url("../images/facehover.png");
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+}
+
+.inst-picture {
+	height: 20px;
+	width: 20px;
+	background: url("../images/insta.png");
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+}
+.inst-picture:hover {
+	background: url("../images/instahover.png");
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+}
+
+.link-picture {
+	height: 20px;
+	width: 20px;
+	background: url("../images/linkedin.png");
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+}
+
+.link-picture:hover {
+	background: url("../images/linhover.png");
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+
+
+
+
+/* Prilagodljiv navbar, na skroll, lepi se na vrh strane - CP */
 
 /* Underline From Center */
 .hvr-underline-from-center {
@@ -68,7 +133,7 @@
     left: 50%;
     right: 50%;
     bottom: 0;
-    background: #2098d1;
+    background: #9aedb8;
     height: 4px;
     -webkit-transition-property: left, right;
     transition-property: left, right;
@@ -105,7 +170,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: #2098d1;
+    background: #9aedb8;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 50%;
@@ -125,55 +190,3 @@
     transform: scaleX(1);
 }
 
-.twit-picture {
-	height: 25px;
-	width: 25px;
-	background: url("../images/twitter.png");
-	background-repeat: no-repeat;
-	background-size: 25px 25px;
-}
-.twit-picture:hover {
-	background: url("../images/twitterhover.png");
-	background-repeat: no-repeat;
-	background-size: 25px 25px;
-}
-
-
-.fb-picture {
-	height: 25px;
-	width: 25px;
-	background: url("../images/facebook.png");
-	background-repeat: no-repeat;
-	background-size: 25px 25px;
-}
-.fb-picture:hover {
-	background: url("../images/facehover.png");
-	background-repeat: no-repeat;
-	background-size: 25px 25px;
-}
-
-.inst-picture {
-	height: 25px;
-	width: 25px;
-	background: url("../images/insta.png");
-	background-repeat: no-repeat;
-	background-size: 25px 25px;
-}
-.inst-picture:hover {
-	background: url("../images/instahover.png");
-	background-repeat: no-repeat;
-	background-size: 25px 25px;
-}
-
-.link-picture {
-	height: 25px;
-	width: 25px;
-	background: url("../images/linkedin.png");
-	background-repeat: no-repeat;
-	background-size: 25px 25px;
-}
-
-.link-picture:hover {
-	background: url("../images/linhover.png");
-	background-repeat: no-repeat;
-	background-size: 25px 25px;
