@@ -174,10 +174,6 @@ section .section-title {
 	font-weight:700;
 }
 
-@media (max-width:1024px){
-		.h1font {
-			font-size: 7vw !important;}
-}
 
 @media (max-width:767px){
 	#footer h5 {
@@ -188,7 +184,7 @@ section .section-title {
 	}
 	
 	.h1font {
-	    font-size: 7vw !important;
+	    font-size: 10vw !important;
 
 	}
 }
