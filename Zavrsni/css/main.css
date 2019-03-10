@@ -126,7 +126,7 @@ main.css: samo za globalni izgled stranica, za personalno prilagodjavanje strani
 
 /* Footer */
 section {
-    padding: 10px 0;
+    padding: 10px 0 0;
 	/*margin: 0 15px;*/
 }
 
