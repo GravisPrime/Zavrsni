@@ -180,11 +180,18 @@ section .section-title {
     border-left: transparent;
     padding-bottom: 0px;
     margin-bottom: 10px;
+	}
+	
+	.h1font {
+	    font-size: 10vw !important;
+
+	}
 }
+	
 }
 
 @media (max-width:576px){
 	#footer h5 {
 	border-bottom: 1px solid #eeeeee;
 	}
-}
+	
