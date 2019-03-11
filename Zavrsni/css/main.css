@@ -13,7 +13,11 @@ main.css: samo za globalni izgled stranica, za personalno prilagodjavanje strani
 }
 
 .navbar-back {
-    background-color: #27663e !important;
+    /*background-color: #27663e !important;*/
+	/*background-color: #777e52 !important;*/
+	background-color: #576037 !important;
+576037
+
 }
 
 .sticky-top {
