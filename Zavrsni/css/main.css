@@ -141,7 +141,7 @@ section .section-title {
     text-transform: uppercase;
 }
 #footer {
-    background: #222 !important;
+    background: #000 !important;
 }
 
 #footer a {
