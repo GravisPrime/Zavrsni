@@ -6,7 +6,7 @@ main.css: samo za globalni izgled stranica, za personalno prilagodjavanje strani
 
 /*header + container */
 .background-image {
-    min-height: 50vh;
+    min-height: 55vh;
     background-image: url('https://blogmedia.evbstatic.com/wp-content/uploads/wpmulti/sites/3/2017/03/17121953/iStock-610259354.jpg');
     background-size: cover;
     background-position: center;
@@ -16,7 +16,7 @@ main.css: samo za globalni izgled stranica, za personalno prilagodjavanje strani
     /*background-color: #27663e !important;*/
 	/*background-color: #777e52 !important;*/
 	background-color: #576037 !important;
-576037
+
 
 }
 
@@ -76,13 +76,13 @@ main.css: samo za globalni izgled stranica, za personalno prilagodjavanje strani
   }
   .hvr-shadow-radial:before {
     bottom: 80%;
-    background: -webkit-radial-gradient(50% 150%, ellipse, rgba(255, 255, 255, 0.6) 0%, rgba(0, 0, 0, 0) 75%);
-    background: radial-gradient(ellipse at 50% 150%, rgba(255, 255, 255, 0.6) 0%, rgba(0, 0, 0, 0) 75%);
+    background: -webkit-radial-gradient(50% 500%, ellipse, rgba(255, 255, 255, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
+    background: radial-gradient(ellipse at 50% 500%, rgba(255, 255, 255, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
   }
   .hvr-shadow-radial:after {
     top: 90%;
-    background: -webkit-radial-gradient(50% -50%, ellipse, rgba(255, 255, 255, 0.6) 0%, rgba(0, 0, 0, 0) 75%);
-    background: radial-gradient(ellipse at 50% -50%, rgba(255, 255, 255, 0.6) 0%, rgba(0, 0, 0, 0) 75%);
+    background: -webkit-radial-gradient(50% -50%, ellipse, rgba(255, 255, 255, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
+    background: radial-gradient(ellipse at 50% -50%, rgba(255, 255, 255, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
   }
   .hvr-shadow-radial:hover:before, .hvr-shadow-radial:focus:before, .hvr-shadow-radial:active:before, .hvr-shadow-radial:hover:after, .hvr-shadow-radial:focus:after, .hvr-shadow-radial:active:after {
     opacity: 1;
@@ -91,7 +91,7 @@ main.css: samo za globalni izgled stranica, za personalno prilagodjavanje strani
 /* Footer */
 section {
     padding: 10px 0 0;
-	/*margin: 0 15px;*/
+	margin: 0 15px;
 }
 
 section .section-title {
@@ -137,6 +137,10 @@ section .section-title {
 	margin-left:5px;
 	font-weight:700;
 }
+
+@media (min-width: 992px) {
+}
+
 
 @media (max-width:767px){
 	#footer h5 {
