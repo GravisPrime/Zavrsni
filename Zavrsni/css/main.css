@@ -164,4 +164,11 @@ section .section-title {
 	#footer h5 {
 	border-bottom: 1px solid #eeeeee;
 	}
+	
+	section {
+	margin: 0;
+	}
+	.font_small {
+		font-size: 0.8rem;
+	}
 }
