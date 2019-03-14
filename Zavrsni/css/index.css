@@ -49,5 +49,6 @@ hr.style18:before {
 	 background-image: url('../images/photo-sm.jpg');
 	 height: 450px;
 	 background-size: cover;
+		margin-top: 20px;
 	}
 }
