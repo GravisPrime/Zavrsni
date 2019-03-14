@@ -171,4 +171,10 @@ section .section-title {
 	.font_small {
 		font-size: 0.8rem;
 	}
+	    .container-fluid {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
 }
