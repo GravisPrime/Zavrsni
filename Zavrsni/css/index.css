@@ -40,15 +40,21 @@ hr.style18:before {
 
 .photo_man_xl {
     background-image: url('../images/photo-xl.jpg');
-	height: 80vmin;
+	 height: 100vmin;
+	 width: 45vmin;
+	 margin-left: auto;
+	 margin-right: auto;
     background-size: cover;
 }
 
 @media (max-width:768px){
 	.photo_man_xl {
 	 background-image: url('../images/photo-sm.jpg');
-	 height: 450px;
+	 height: 60vmin;
+	 width: 60vmin;
 	 background-size: cover;
-		margin-top: 20px;
+	 margin-left: auto;
+	 margin-right: auto;
+	margin-top: 20px;
 	}
 }

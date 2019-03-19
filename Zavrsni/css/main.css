@@ -1,21 +1,15 @@
-/* Istorija:
-CP: Copy-Paste
-main.css: samo za globalni izgled stranica, za personalno prilagodjavanje stranice, koristiti lokalni css
-*/
-
-
 /*header + container */
 .background-image {
-    min-height: 55vh;
-    background-image: url('https://blogmedia.evbstatic.com/wp-content/uploads/wpmulti/sites/3/2017/03/17121953/iStock-610259354.jpg');
+    min-height: 60vh;
+    background-image: url('http://new-media-world.net/wp-content/uploads/2018/07/new-media-world-digitalcamera.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .navbar-back {
     /*background-color: #27663e !important;*/
-	/*background-color: #777e52 !important;*/
-	background-color: #576037 !important;
+	background-color: #141217 !important;
+	/*background-color: #576037 !important;*/
 
 
 }
@@ -38,6 +32,11 @@ main.css: samo za globalni izgled stranica, za personalno prilagodjavanje strani
 .h1font {
     font-size: 5em !important;
     font-family: 'Rokkitt', serif;
+	position: absolute;
+	top: 0px;
+	margin-left: 20px;
+	color: #3e3940;
+	border-bottom: 1px solid;
 }
 
 .h4font {
@@ -138,6 +137,11 @@ section .section-title {
 	font-weight:700;
 }
 
+@media (max-width: 1200px) { 
+		.h1font {
+	    font-size: 2.8em !important;
+	}	
+ }
 
 @media (max-width:767px){
 	#footer h5 {
@@ -146,18 +150,15 @@ section .section-title {
     padding-bottom: 0px;
     margin-bottom: 10px;
 	}	
-	.h1font {
-	    font-size: 10vw !important;
-    }
     .remove {
         display: block!important;
     }
+			.h1font {
+	    font-size: 2.5em !important;
+	}	
 }
 
 @media (max-width:576px){
-		.h1font {
-	    font-size: 10vw !important;
-	}	
 	#footer h5 {
 	border-bottom: 1px solid #eeeeee;
 	}
