@@ -1,0 +1,83 @@
+
+	.contact{
+		padding: 4%;
+		height: 400px;
+	}
+	.mars{
+		background: #ff9b00;
+		padding: 4%;
+		border-top-left-radius: 0.5rem;
+		border-bottom-left-radius: 0.5rem;
+	}
+	.contact-info{
+		margin-top:10%;
+	}
+	.contact-info img{
+		margin-bottom: 15%;
+	}
+	.contact-info h2{
+		margin-bottom: 10%;
+	}
+	.mars1{
+		background: #fff;
+		padding: 3%;
+		border-top-right-radius: 0.5rem;
+		border-bottom-right-radius: 0.5rem;
+	}
+	.contact-form label{
+		font-weight:600;
+	}
+	.contact-form button{
+		background:#27663e;
+		color: #fff;
+		font-weight: 600;
+		width: 25%;
+		float:right;
+	}
+	.contact-form button:focus{
+		box-shadow:none;
+	}
+	
+	/*KONTAKT STRANICA*/
+
+
+    .contact-form button:focus{
+        box-shadow:none;
+    }
+
+    .sve {
+        height: 550px;
+    }
+
+    /*ZA MANJE PROZORE*/
+
+    /*Za formu*/
+    @media (min-width: 400px) {
+        .sve {
+            height:900px;
+        }
+    }
+
+    /*GUUGLE MAPA*/
+
+    .map-container{
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+    }
+    .map-container iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+    }
+
+    .ole {
+        text-align:center;
+        color:#ff0000;
+        margin-bottom: 1em;
+        font-family: 'Combo', cursive;
+        font-size:2em;
+    }
